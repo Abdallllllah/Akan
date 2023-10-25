@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Akan Name</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+  <style>
+    body {
+text-align: center;
+}
+
+
+</style>
+    <div class="container">
+        <div class="jumbotron">
+            <h1><strong><em>Want to know your Akan Name?</em></strong></h1>
+            <p><em>If so, then you're in the right place. Fill out the from and find out your Akani name in a  matter of seconds.</em></p>
+    </div>
+
+        <h1>What is an Akan Name?</h1>
+    <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+      
+    <h2>Get Your Akan Name..!!!</h2>
+
+    <div class="forms">
+        <div class="">
+                <div class="form-group top-form">
+                  <label for="century" class="labels">Century</label>
+                  <input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="30">
+                </div>
+                <div class="form-group">
+                  <label for="year" class="labels">Year</label>
+                  <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
+                </div>
+                <div class="form-group">
+                  <label for="month" class="labels">Month</label>
+                  <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
+                </div>
+                <div class="form-group">
+                  <label for="monthDay" class="labels">Day of month</label>
+                  <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
+                </div>
+                <form class="radio-button">
+                  <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                  <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                </form>
+                <br>
+                <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
+                <h1 id="result"></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
